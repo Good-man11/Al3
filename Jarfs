@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مثال زر في المنتصف</title>
+    <style>
+        /* إعدادات تنسيق الزر */
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #e74c3c; /* لون الزر الأحمر */
+            color: white; /* لون النص */
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #c0392b; /* لون مختلف عند مرور الفأرة */
+        }
+
+        /* إعدادات لجعل الزر في المنتصف */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* يجعل الصفحة في وسط الشاشة */
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="https://example.com" class="button">اضغطني</a>
+    </div>
+
+</body>
+</html>
