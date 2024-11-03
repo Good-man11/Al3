@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مثال زر في المنتصف</title>
+    <title>مثال أزرار متعددة</title>
     <style>
-        /* إعدادات تنسيق الزر */
+        /* إعدادات تنسيق الأزرار */
         .button {
             display: inline-block;
             padding: 15px 30px;
@@ -15,6 +15,7 @@
             text-decoration: none;
             border-radius: 5px;
             font-size: 18px;
+            margin: 10px; /* إضافة مسافة بين الأزرار */
             transition: background-color 0.3s;
         }
 
@@ -22,7 +23,15 @@
             background-color: #c0392b; /* لون مختلف عند مرور الفأرة */
         }
 
-        /* إعدادات لجعل الزر في المنتصف */
+        .button-second {
+            background-color: #3498db; /* لون الزر الأزرق */
+        }
+
+        .button-second:hover {
+            background-color: #2980b9; /* لون مختلف عند مرور الفأرة */
+        }
+
+        /* إعدادات لجعل الأزرار في المنتصف */
         .container {
             display: flex;
             justify-content: center;
@@ -36,7 +45,12 @@
 
     <div class="container">
         <a href="https://example.com" class="button">اضغطني</a>
+        <a href="https://lucid.app/users/login#/login?folder_id=recent" class="button button-second">حبيبي والله</a>
     </div>
+
+</body>
+</html>
+
 
 </body>
 </html>
